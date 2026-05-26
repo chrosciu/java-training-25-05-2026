@@ -2,11 +2,19 @@ package eu.chrost.day2.s3methods.task1.trainer;
 
 public class Task1 {
     public static void main(String[] args) {
-        int[] intArray = {1, 2, 3, 4, 5};
-        int sumaArray = 0;
-        for (int i = 0; i < intArray.length; i++) {
-            sumaArray = intArray[i] + sumaArray;
-        }
-        System.out.println("Suma elementów tablicy: " + sumaArray);
+        System.out.println ("Suma: " + add(1, 5));
+        System.out.println ("Suma: " + add(1.5, 5.4));
     }
+
+    public static int add(int liczba1, int liczba2) {
+        int add = 0;
+        add = liczba1 + liczba2;
+        return add;
+    }
+    public static double add(double liczba1, double liczba2) {
+        double add = 0;
+        add = liczba1 + liczba2;
+        return add;
+    }
+
 }
