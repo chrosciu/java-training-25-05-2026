@@ -50,6 +50,10 @@ public class OneDimensionArrays {
         //mozna skorzystac z gotowej metody w klasie Arrays
         System.out.println(Arrays.toString(predefinedArray));
 
+        //mozna tez tablice zadeklarowac tak - uzywamy new ale nie podajemy rozmiaru
+        //zostanie on wziety z listy elementow
+        int[] anotherPredefinedArray = new int[]{3, 5};
+
 
 
     }
