@@ -7,7 +7,8 @@ public class Task2 {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Podaj rok: ");
-        int year = scanner.nextInt();
+        String input = scanner.nextLine();
+        int year = Integer.parseInt(input);
 
         boolean przestepny = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
 
