@@ -1,0 +1,6 @@
+Zadanie 1: Modyfikacja klasy BankAccount
+Bazujac na wersji klasy BankAccount w katalogu trainer, ktora ma wszystko co sie da publiczne -
+- zmodyfikuj zawartosc tej klasy (a konkretnie utworz kopie w pakiecie student) i ogranicz jak najbardziej
+widocznosc pol i metod (zastanow sie ktore mozna tak ograniczyc).
+Sprawdz takze czy gdzies mozna zastosowac modyfikator final i czy klasa moze byc niemutowalna
+
