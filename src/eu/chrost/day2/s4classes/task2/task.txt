@@ -12,4 +12,4 @@ o Z wszystkimi trzema parametrami.
 5. Utwórz klasę Main z metodą main() i w tej metodzie:
 o Utwórz różne samochody, korzystając z różnych konstruktorów.
 o Sprawdź, które samochody są starsze od podanej wartości.
-o Wypisz na konsolę samochody oraz ich pola (poprzez gettery)
+o Wypisz na konsolę samochody oraz ich pola
