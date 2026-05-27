@@ -1,6 +1,6 @@
 package eu.chrost.day3.s3references.lecture;
 
-public class References {
+public class Main {
     public static void main(String[] args) {
         //typy primitywne - przypisanie kopiuje wartosc i tworzy nowe niezalezne miejsce w pamieci
         int x = 10;
