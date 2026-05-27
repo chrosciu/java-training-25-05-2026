@@ -22,7 +22,9 @@ public class Main {
         System.out.println(p1.y);
 
         //tworzymy nowy punkt uzywajac konstruktora z argumentami
-        Point p2 = new Point(2.5, 4.0);
+        Point p2 = new Point(3.0, 4.0);
         p2.print();
+
+        System.out.println(p2.distanceFromZero());
     }
 }

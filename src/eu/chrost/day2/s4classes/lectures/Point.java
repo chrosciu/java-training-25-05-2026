@@ -55,4 +55,9 @@ public class Point {
     public void print() {
         System.out.println("Point(" + x + ", " + y + ")");
     }
+
+    //funkcja / metoda zwracajaca wartosc na podstawie stanu obiektu
+    public double distanceFromZero() {
+        return Math.sqrt(Math.pow(x, 2.0) + Math.pow(y, 2.0));
+    }
 }
