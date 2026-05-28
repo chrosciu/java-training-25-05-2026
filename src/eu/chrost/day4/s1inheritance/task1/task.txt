@@ -1,0 +1,15 @@
+1. Utwórz klasę Vehicle z polami:
+- String brand (protected).
+- int year (protected).
+- Dodaj konstruktor ustawiający wartości pól.
+2. Utwórz klasę Car dziedziczącą po Vehicle:
+- Dodaj pole int seats (private).
+- Zdefiniuj konstruktor przyjmujący brand, year i seats. Skorzystaj z super().
+3. Utwórz klasę Truck, która również dziedziczy po Vehicle:
+- Dodaj pole double loadCapacity (protected).
+- Konstruktor ustawiający wszystkie pola (korzystający z super()).
+4. W każdej klasie nadpisz metodę toString(), aby zwracała informacje o pojeździe.
+5. W kazdej klasie nadpisz metodę equals() i hashCode() tak aby dało się porównywać pojazdy na podstawie wszystkich ich pól.
+6. Utwórz klasę Main z metodą main().
+- W metodzie main() utwórz obiekty różnych typów pojazdów i wyświetl ich dane oraz porownaj je ze soba
+(zrob tak aby ktores porownanie zwrocilo wyniku true)
