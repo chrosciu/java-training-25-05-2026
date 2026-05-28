@@ -2,6 +2,8 @@ package eu.chrost.day4.s2abstract.lectures;
 
 //klasa abstrakcyjna jest klasa, ktorej instancji nie mozna utworzyc
 //natomiast mozna uzywac bezproblemowo referencji do tej klasy
+//slowa abstract i final sie nawzajem wykluczaja
+//(co ma zreszta sens)
 public abstract class Animal {
     protected final String name;
 
